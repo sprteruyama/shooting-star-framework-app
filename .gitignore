@@ -1,0 +1,10 @@
+.idea
+logs/*
+!logs/empty
+vendor
+share/session/*
+!share/session/empty
+tmp/*
+!tmp/empty
+*.lock
+*.dev
