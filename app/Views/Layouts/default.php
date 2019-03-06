@@ -6,6 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<?php echo $contents; ?>
+<?php /** @var string $contents */ echo $contents; ?>
 </body>
 </html>

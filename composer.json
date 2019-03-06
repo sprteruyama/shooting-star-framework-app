@@ -2,7 +2,7 @@
   "name": "sprteruyama/shooting-star-framework-app",
   "description": "A template of The Lightweight PHP Framework Shooting-Star",
   "require": {
-    "php": ">=7.0.0",
-    "sprteruyama/shooting-star-framework": "*@dev"
+    "php": ">=5.4.0",
+    "sprteruyama/shooting-star-framework": ">=0.0.1"
   }
 }
