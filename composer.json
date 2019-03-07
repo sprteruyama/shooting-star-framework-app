@@ -1,7 +1,7 @@
 {
   "name": "sprteruyama/shooting-star-framework-app",
   "description": "A template of The Lightweight PHP Framework Shooting-Star",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "require": {
     "php": ">=5.4.0",
     "sprteruyama/shooting-star-framework": ">=0.0.1"
