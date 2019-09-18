@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
-    <title>echo isset($title) ? $title : ''; ?></title>
+    <title><?php echo isset($title) ? $title : ''; ?></title>
     <!--[if IE]>
     <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
