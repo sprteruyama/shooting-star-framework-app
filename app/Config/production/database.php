@@ -1,6 +1,7 @@
 <?php
 
 use ShootingStar\Config;
+use ShootingStar\EnvFile;
 
 Config::sets([
     'database' => [
@@ -8,8 +9,8 @@ Config::sets([
             'host' => 'localhost',
             'host_slave' => 'localhost',
             'database' => 'database',
-            'user' => 'user',
-            'password' => 'password',
+            'user' => EnvFile::get('DB_USER'),
+            'password' => EnvFile::get('DB_PASSWORD'),
         ]
     ]
 ]);

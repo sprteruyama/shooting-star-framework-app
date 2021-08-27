@@ -1,6 +1,7 @@
 <?php
 
 use ShootingStar\Config;
+use ShootingStar\EnvFile;
 
 Config::sets(
     [
@@ -14,7 +15,8 @@ Config::sets(
             '/' => '/base',
             '/base' => null,
         ],
+        'session.cookie_name' => 'st-session',
         'session.lifetime' => 365 * 24 * 60 * 60,
-        'salt' => 'THIS IS A SALT FOR COMMON',
+        'salt' => EnvFile::get('SALT'),
     ]
 );
