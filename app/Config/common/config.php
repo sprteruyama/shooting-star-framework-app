@@ -12,7 +12,7 @@ Config::sets(
             ],
         ],
         'routes' => [
-            '/' => '/base',
+            '/' => '/base/index',
             '/base' => null,
         ],
         'session.cookie_name' => 'st-session',
