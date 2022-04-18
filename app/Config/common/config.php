@@ -11,7 +11,7 @@ Config::sets(
             ],
         ],
         'routes' => [
-            '/' => '/base',
+            '/' => '/base/index',
             '/base' => null,
         ],
         'session.lifetime' => 365 * 24 * 60 * 60,
