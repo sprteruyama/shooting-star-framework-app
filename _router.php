@@ -1,6 +1,6 @@
 <?php
 $resourceFilePath = __DIR__ . '/app/Public/' . $_SERVER['SCRIPT_NAME'];
-if (file_exists($resourceFilePath)) {
+if (file_exists($resourceFilePath) && !is_dir($resourceFilePath)) {
     echo file_get_contents($resourceFilePath);
     exit();
 }
